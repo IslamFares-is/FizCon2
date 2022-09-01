@@ -1,0 +1,498 @@
+/* for section heads----------------------------------------------------------- */
+
+@media (max-width: 1300px) {
+  .section-head {
+    width: 100%;
+    position: relative;
+  }
+  .section-head h3 {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  .section-head h1 {
+    font-size: 8rem;
+  }
+  /* event */
+  .event .circle {
+    display: none;
+  }
+  .event-image {
+    margin-left: 1rem !important;
+  }
+}
+
+/* for speakers section */
+@media (max-width: 1200px) {
+  .speakers-container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  /* -----------------------------topics--------------------------------- */
+  .event-topics-container .topics {
+    width:97%;
+  }
+  /* -----------------------sponsors----------------------------------------- */
+  .sponsors-logos {
+    width:99%;
+  }
+  /* ----------------------------lates-news----------------------------------- */
+  .latest-news {
+    width:97%;
+  }
+  /* ------------------------location-------------------------------------------- */
+  .sub-container {
+    width:97%;
+    max-width:97%;
+  }
+  .sub-container .hotel {
+    width:58%;
+  }
+  .sub-container .hotel img {
+    width:100%;
+    max-width:100%;
+  }
+  .location-info a {
+    width:90%;
+  }
+  .location-info {
+    width:40% !important ;
+  }
+ 
+}
+
+/* end Section Heads---------------------------------------------------------- */
+
+@media (max-width: 1140px) {
+  header > button {
+    display: none;
+  }
+
+  /* first---section---------------------- */
+  .container-body > a {
+    display: none;
+  }
+  .section-head{
+    justify-content: flex-end;
+  }
+  .section-head h3 {
+    position: absolute;
+    left: 1.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+  /* ------------------------------------------features------------ */
+  .features {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    padding: 0 2rem;
+  }
+  .features > div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* ------------------------------event */
+  .event-image div {
+    width: 50%;
+  }
+  .event-image {
+    justify-content: center !important;
+    order: 2;
+    margin-left: 2rem;
+  }
+  .event .side-buttons {
+    display: none;
+  }
+  .event-details {
+    padding-left: 1rem;
+    text-align: center;
+    position: static;
+    align-items: center;
+  }
+  .event .btn-box::after {
+    display: none;
+  }
+  /* -----------------------------presenters--------------------- */
+  .presenters {
+    width: 95%;
+  }
+  .presenters .text {
+    text-align: start;
+  }
+  /* ------------------------------------event-tickets--------------- */
+  .tickets {
+    width: 97% !important;
+  }
+  .topics {
+    height:650px;
+  }
+  .topics .ul:last-of-type {
+    order:2;
+  }
+  .topics .topic-girl {
+    order:3;
+    align-self: flex-end;
+  }
+  .wave-line {
+    right:-45% !important;
+    bottom:-4%;
+  }
+  
+  
+}
+
+/* --------------------------1000px------------------------------- */
+@media (max-width: 1000px) {
+  .nav-btn {
+    display: none;
+  }
+  header {
+    justify-content: space-between;
+  }
+  header > ul > li::before {
+    display: none;
+  }
+  header > ul .active > a {
+    color: rgb(255, 0, 157) !important;
+  }
+  header > ul > li {
+    margin-left: 1.5rem;
+  }
+  /* ----------------------------container-body------------------- */
+  .container {
+    height: 700px !important;
+    background-size: contain;
+    align-items: center;
+  }
+  .container-body > img {
+    display: none;
+  }
+  .container-body h1 {
+    font-size: 2rem;
+  }
+  .container-body p {
+    width: 100% !important;
+  }
+  /* ------------------features--------------------------------------- */
+  .features {
+    flex-wrap: wrap;
+  }
+  .features > div {
+    width: 48%;
+  }
+  .section-head {
+    margin-bottom: 5rem;
+  }
+  /* ---------------------------event------------------------------------- */
+  .event {
+    flex-wrap: wrap;
+  }
+  .event-details,
+  .event-image {
+    width: 100% !important;
+  }
+  .event-image {
+    background-position: 50% 50%;
+    margin-top: 2rem;
+    align-items: center !important;
+    margin-left: 0;
+  }
+  /* -----------------------presenters--------------------------- */
+  .presenters {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .presenters > div {
+    width: 100% !important;
+  }
+  .day-1 .text {
+    width: 30%;
+  }
+  .day-1 {
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+  }
+  .days {
+    width: 100%;
+  }
+  .day-1-presents {
+    margin-left: 0;
+  }
+  /* ----------------------------speakers---------------------------- */
+  .other-speakers {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: flex-start !important;
+    height:fit-content !important;
+  }
+  .other-speakers > div {
+    width:70px !important;
+    margin-right:1rem;
+    position:static;
+  }
+  .other-speakers > div img {
+    width:100%;
+    max-width:100%;
+    margin-top:10px;
+  }
+  .speaker-5 {
+    position:static !important;
+  }
+
+  /* -------------------------------tickets-------------------------- */
+  .tickets {
+    flex-wrap: wrap;
+    padding:0 !important;
+    background-color: transparent !important;
+  }
+  .tickets > div {
+    width:50%;
+    background-color: white;
+    padding:3rem 0;
+    border-radius:10px  ;
+    -webkit-border-radius:10px  ;
+    -moz-border-radius:10px  ;
+    -ms-border-radius:10px  ;
+    -o-border-radius:10px  ;
+  }
+.tickets > div:last-of-type {
+  margin-top:2rem;
+  }
+  /* ----------------------------------------topics----------------------------- */
+  .topics {
+    flex-wrap: wrap;
+    height:auto;
+    justify-content: center !important;
+  }
+  .topics .ul {
+    width:49%;
+  }
+  .topics .ul:last-of-type {
+    margin-left:2%;
+  }
+
+  /* ------------------------------------latest-news--------------------------------- */
+  .latest-news {
+    flex-wrap: wrap;
+  }
+  .latest-news > div {
+    width:48%;
+  }
+  .latest-news > div:last-of-type {
+    margin-top:10rem;
+  }
+  /* -----------------------------------------------Location------------------------------------------ */
+  .location-container .sub-container {
+    width:100%;
+    flex-wrap: wrap;
+    height:94rem;
+  }
+  .location-container .sub-container > div {
+    width:100% !important;
+    height:47rem;
+  }
+  .location-info {
+    height:50% !important;
+    justify-content: space-evenly !important;
+  }
+  iframe {
+    top:47rem;
+    height:47rem;
+  }
+  
+}
+
+/* -------------------------------------760px------------------------------ */
+@media (max-width: 760px) {
+  header {
+    height: 70px;
+  }
+  .responsive-menu-bar {
+    top: 10px;
+    z-index: 1000000;
+    position: fixed;
+  }
+  header > ul {
+    display: none;
+  }
+  /* container body------------ */
+  .container {
+    height: 500px !important;
+  }
+  .container-body {
+    margin-top: 3rem;
+    justify-content: center;
+  }
+  .container-body > div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem !important;
+  }
+  .container-body > div h1 {
+    font-size: 2.5rem;
+  }
+  .container-body > div * {
+    margin-bottom: 2rem !important;
+  }
+  /* ------------------------------------------features--------------------------------------- */
+  .section-head h1 {
+    display: none;
+  }
+  .section-head h3 {
+    left:50%;
+    transform:translateX(-50%)  ;
+    -webkit-transform:translateX(-50%)  ;
+    -moz-transform:translateX(-50%)  ;
+    -ms-transform:translateX(-50%)  ;
+    -o-transform:translateX(-50%)  ;
+}
+  .features > div {
+    width: 100%;
+  }
+
+  /* ------------------------presenters------------------------- */
+  .day-1-presents > div {
+    width: 100%;
+  }
+  .day-1-presents .text {
+    width: 90%;
+  }
+  /* ----------------------tickets------------------------------ */
+  .tickets > div {
+    width:100%;
+    margin:0 0 2rem !important;
+  }
+  /* -------------------------------speakers--------------------------------------- */
+  .speakers-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .speakers-section > div {
+    width:100%
+  }
+  .other-speakers {
+    justify-content: center;
+    padding-bottom:2rem;
+  }
+  .other-speakers > div {
+    margin-right:2rem;
+  }
+  /* --------------------------------topics------------------------------------------- */
+  .topics .ul {
+    width:100%;
+    margin:0 !important;
+  }
+  .topic-girl {
+    margin-top:3rem;
+  }
+  /* -------------------------------------latest-news---------------------------------- */
+  .latest-news > div {
+    width:100%;
+    align-items:center;
+  }
+  .latest-news > div:not(:first-of-type) {
+    margin-top:10rem;
+  }
+  .date-name {
+    width:200px;
+  }
+  .latest-news > div::before {
+    width:300px;
+    left:50%;
+    transform:translateX(-50%)  ;
+    -webkit-transform:translateX(-50%)  ;
+    -moz-transform:translateX(-50%)  ;
+    -ms-transform:translateX(-50%)  ;
+    -o-transform:translateX(-50%)  ;
+  }
+  /* ------------------------------------ location--------------------------------- */
+  .sub-container {
+    height:114rem !important;
+  }
+  .sub-container .location-info {
+    height:67rem !important;
+  }
+  iframe {
+    top:67rem;
+  }
+  .location-info > div {
+    padding-top:8rem;
+  }
+  .location-info > div::before {
+    left:2rem;
+    top:2rem;
+  }
+  /* -------------------------------footer----------------------------------------- */
+  .email {
+    width:90% !important;
+  }
+  .footer-container input {
+    display: block;
+    margin:0 !important;
+    width:100% !important;
+    padding:0 2.5rem !important;
+    height:4rem !important;
+    text-align:center;
+  }
+ 
+  input[type="submit"] {
+    position:static !important;
+    margin-top:4rem !important;
+  }
+  .footer-container .footer-title {
+    width:98%;
+  }
+  
+}
+
+/* At 600px-------------------
+------------------------------ */
+@media (max-width: 599px) {
+  .container-body > div h1 {
+    font-size: 1.5rem !important;
+  }
+  .container-body > div p {
+    font-size: 1rem;
+  }
+  /* ----------------------------------features---------------------------------- */
+ 
+  .features > div {
+    align-items: center;
+  }
+  .features > div p {
+    text-align: center;
+    margin: 0;
+  }
+  /* -------------------------day-1----------- */
+  .day-1 .text {
+    width:80%;
+  }
+  /* ---------------------------------------event------------------------- */
+  .event-image {
+    width:95%;
+    overflow:hidden;
+    background-size:550px 900px !important;
+  }
+  .event-image > div {
+    margin-bottom:2rem !important;
+    width:100% !important;
+    display: flex;
+    justify-content: center;
+
+  }
+  /* --------------------------- location--------------------------- */
+  .hotel img {
+    display: none;
+  }
+  iframe {
+    left:0;
+    width:100%;
+  }
+}
